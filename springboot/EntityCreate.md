@@ -1,0 +1,1 @@
+1. ```spring.jpa.generate-ddl``` will generate entity with String as char(255) by default
