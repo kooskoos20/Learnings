@@ -1,0 +1,13 @@
+version: '3.7'    #version of yaml file. If not specified v1 is assumed
+
+services:         #same as docker containers
+  service_name:   #almost similar to using --name except the name will be appended by dockercompose prefix but the DNS name would still be the same in the network
+  ports:          #ports to publish/map
+  volumes:        #volumes to use or bind mounts, same as -v
+  environment:    #same as -e to pass enivronment variables
+
+  service_name_2: #new container
+
+volumes:          #Optional. Used to create new volumes, same as docker volume create
+
+networks:         #Optional. Used to create new networks, same as docker network create
