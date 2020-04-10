@@ -21,6 +21,6 @@ $ aws kinesis get-shard-iterator --stream-name <stream-name> --shard-iterator-ty
 
 # Iterate over data
 # Data is encoded in base64
-kineses get-records --shard-iterator <iterator-name> --limit <no-of-records> --profile <aws-profile-name> --profile <aws-profile-name>
+$ aws kinesis get-records --shard-iterator <iterator-name> --limit <no-of-records> --profile <aws-profile-name>
 
 
