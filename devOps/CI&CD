@@ -1,0 +1,2 @@
+CI - Running all tests before integrating changes to the codebase
+CD - Deployment of depoyables/jar to the servers.
